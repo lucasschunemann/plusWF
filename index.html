@@ -1,0 +1,679 @@
+<!doctype html>
+<html lang="pt-BR" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>WF Odontologia | Clínica odontológica em Braço do Trombudo e Rio do Sul, SC</title>
+  <meta name="description" content="Clínica odontológica com todas as especialidades em Braço do Trombudo e Rio do Sul, SC. Agende sua consulta pelo WhatsApp.">
+  <meta name="theme-color" content="#F3EFEA">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:title" content="WF Odontologia">
+  <meta property="og:description" content="Odontologia completa no Alto Vale do Itajaí. Braço do Trombudo e Rio do Sul, SC.">
+  <meta property="og:image" content="https://framerusercontent.com/images/P1n5IPaJ04muGDqa9ILw5hwo.jpg?scale-down-to=2048">
+
+  <script>
+    document.documentElement.className = 'js';
+    // Fallback: se o JS principal não carregar, mostra o conteúdo sem animação.
+    setTimeout(function () { if (!window.__wf) document.documentElement.className = 'no-js'; }, 3000);
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://framerusercontent.com">
+  <!-- Uma única requisição de fontes: display serifada + sans de texto + mono dos rótulos -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Albert+Sans:wght@400..600&family=Geist+Mono:wght@400&family=Spectral:wght@300;400&display=swap">
+  <link rel="stylesheet" href="styles.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Dentist",
+    "name": "WF Odontologia",
+    "url": "https://wfodontologia.framer.website/",
+    "image": "https://framerusercontent.com/images/P1n5IPaJ04muGDqa9ILw5hwo.jpg",
+    "description": "Clínica odontológica com todas as especialidades em Braço do Trombudo e Rio do Sul, SC.",
+    "department": [
+      {
+        "@type": "Dentist",
+        "name": "Clínica WF",
+        "telephone": "+55 47 99998-1676",
+        "address": { "@type": "PostalAddress", "addressLocality": "Braço do Trombudo", "addressRegion": "SC", "addressCountry": "BR" }
+      },
+      {
+        "@type": "Dentist",
+        "name": "Clínica Schünemann",
+        "telephone": "+55 47 3525-1648",
+        "address": { "@type": "PostalAddress", "addressLocality": "Rio do Sul", "addressRegion": "SC", "addressCountry": "BR" }
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip" href="#main">Pular para o conteúdo</a>
+  <div class="grain" aria-hidden="true"></div>
+
+  <!-- Símbolo reutilizável -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="tooth" viewBox="0 0 32 32">
+      <path fill="currentColor" d="M16 6.2C17.9 5.2 19.9 4 22.6 4 26.6 4 29 7 29 11c0 3.6-1.4 6.4-2.6 9.6-1 2.8-1.8 8.2-4 8.2-1.8 0-2.3-2-3-4.2-.6-2-1.6-4-3.4-4s-2.8 2-3.4 4c-.7 2.2-1.2 4.2-3 4.2-2.2 0-3-5.4-4-8.2C4.4 17.4 3 14.6 3 11c0-4 2.4-7 6.4-7 2.7 0 4.7 1.2 6.6 2.2Z"/>
+    </symbol>
+    <symbol id="arrow" viewBox="0 0 16 16">
+      <path d="M2.5 8h11M9 3.5 13.5 8 9 12.5" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="arrow-up" viewBox="0 0 16 16">
+      <path d="M4.5 11.5l7-7M5.5 4.5h6v6" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="star" viewBox="0 0 16 16">
+      <path fill="currentColor" d="M8 1.2l1.9 4.3 4.7.4-3.6 3.1 1.1 4.6L8 11.2 3.9 13.6 5 9 1.4 5.9l4.7-.4L8 1.2Z"/>
+    </symbol>
+  </svg>
+
+  <!-- ============ NAV ============ -->
+  <header class="nav" data-nav>
+    <div class="nav__inner container">
+      <a href="#top" class="brand" aria-label="WF Odontologia, início">
+        <svg class="brand__mark" aria-hidden="true"><use href="#tooth"/></svg>
+        <span class="brand__name">WF Odontologia</span>
+      </a>
+
+      <nav class="nav__links" aria-label="Principal">
+        <a href="#sobre">Sobre</a>
+        <a href="#especialidades">Especialidades</a>
+        <a href="#clinicas">Clínicas</a>
+        <a href="#duvidas">Dúvidas</a>
+      </nav>
+
+      <div class="nav__end">
+        <button class="btn btn--sm nav__cta" type="button" data-book>
+          <span class="roll"><span data-text="Agendar consulta">Agendar consulta</span></span>
+        </button>
+        <button class="nav__menu" type="button" data-menu aria-expanded="false" aria-controls="menu">
+          <span class="nav__menu-label">Menu</span>
+          <span class="nav__burger" aria-hidden="true"><i></i><i></i></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Menu mobile -->
+  <div class="menu" id="menu" inert>
+    <nav class="menu__links container" aria-label="Menu">
+      <a href="#sobre" style="--i:0"><span>Sobre</span><small class="mono">01</small></a>
+      <a href="#especialidades" style="--i:1"><span>Especialidades</span><small class="mono">02</small></a>
+      <a href="#jornada" style="--i:2"><span>Como funciona</span><small class="mono">03</small></a>
+      <a href="#clinicas" style="--i:3"><span>Clínicas</span><small class="mono">04</small></a>
+      <a href="#duvidas" style="--i:4"><span>Dúvidas</span><small class="mono">05</small></a>
+    </nav>
+    <div class="menu__foot container">
+      <button class="btn btn--block" type="button" data-book>
+        <span class="roll"><span data-text="Agendar consulta">Agendar consulta</span></span>
+        <svg class="btn__icon" aria-hidden="true"><use href="#arrow"/></svg>
+      </button>
+      <p class="mono">Braço do Trombudo · Rio do Sul, SC</p>
+    </div>
+  </div>
+
+  <main id="main">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero container" id="top" aria-labelledby="hero-title">
+      <div class="hero__meta mono" data-line>
+        <span class="reveal" style="--d:100ms">Clínica odontológica</span>
+        <span class="reveal hide-sm" style="--d:160ms">Todas as especialidades</span>
+        <span class="reveal" style="--d:220ms">Braço do Trombudo · Rio do Sul, SC</span>
+      </div>
+
+      <h1 class="hero__title display" id="hero-title" data-split style="--d:180ms">
+        Odontologia completa no Alto Vale do Itajaí.
+      </h1>
+
+      <div class="hero__body">
+        <p class="lead reveal" style="--d:650ms">
+          Clínica geral, estética, implantes, ortodontia e as demais especialidades. Você faz o tratamento inteiro com a mesma equipe, sem precisar ir a outro consultório.
+        </p>
+        <div class="hero__ctas reveal" style="--d:760ms">
+          <button class="btn" type="button" data-book>
+            <span class="roll"><span data-text="Agendar avaliação">Agendar avaliação</span></span>
+            <svg class="btn__icon" aria-hidden="true"><use href="#arrow"/></svg>
+          </button>
+          <a class="link" href="#sobre">Conheça a clínica</a>
+        </div>
+      </div>
+
+      <figure class="hero__media frame" data-unveil style="--d:350ms">
+        <div class="frame__px" data-parallax="0.06">
+          <img
+            src="https://framerusercontent.com/images/P1n5IPaJ04muGDqa9ILw5hwo.jpg?scale-down-to=1024"
+            srcset="https://framerusercontent.com/images/P1n5IPaJ04muGDqa9ILw5hwo.jpg?scale-down-to=1024 683w,
+                    https://framerusercontent.com/images/P1n5IPaJ04muGDqa9ILw5hwo.jpg?scale-down-to=2048 1365w"
+            sizes="(min-width: 1440px) 560px, (min-width: 901px) 40vw, 100vw"
+            width="683" height="1024"
+            alt="Equipe da WF Odontologia, de uniforme bordô, sentada em um sofá claro"
+            fetchpriority="high" decoding="async">
+        </div>
+      </figure>
+
+      <div class="hero__foot reveal" style="--d:900ms">
+        <div class="rating">
+          <span class="rating__stars" aria-hidden="true">
+            <svg><use href="#star"/></svg><svg><use href="#star"/></svg><svg><use href="#star"/></svg><svg><use href="#star"/></svg><svg><use href="#star"/></svg>
+          </span>
+          <span><strong>5,0</strong> de avaliação no Google</span>
+        </div>
+        <a class="scroll-hint mono" href="#sobre" aria-label="Rolar para a próxima seção">
+          <span>Role</span><i aria-hidden="true"></i>
+        </a>
+      </div>
+    </section>
+
+    <!-- ============ (01) SOBRE ============ -->
+    <section class="statement container" id="sobre" aria-label="Sobre nós">
+      <p class="label reveal">(01) Sobre nós</p>
+      <p class="statement__text" data-scrub>
+        Somos Fernanda e Wagner, dentistas. Juntos, temos mestrado, doutorado e mais de três pós-graduações, e atendemos todas as especialidades da odontologia em Braço do Trombudo e Rio do Sul.
+      </p>
+    </section>
+
+    <section class="founders container" aria-labelledby="founders-title">
+      <figure class="founders__media">
+        <div class="frame frame--45" data-unveil>
+          <div class="frame__px" data-parallax="0.08">
+            <img
+              src="https://framerusercontent.com/images/2aQgZVX93n6NByWPdtgbO1yE190.jpg?scale-down-to=1024"
+              srcset="https://framerusercontent.com/images/2aQgZVX93n6NByWPdtgbO1yE190.jpg?scale-down-to=1024 683w,
+                      https://framerusercontent.com/images/2aQgZVX93n6NByWPdtgbO1yE190.jpg?scale-down-to=2048 1365w"
+              sizes="(min-width: 1440px) 560px, (min-width: 901px) 40vw, 100vw"
+              width="683" height="1024"
+              alt="Fernanda e Wagner, fundadores da WF Odontologia"
+              loading="lazy" decoding="async">
+          </div>
+        </div>
+        <figcaption class="caption mono reveal">
+          <span>Fernanda &amp; Wagner</span>
+          <span>Fundadores</span>
+        </figcaption>
+      </figure>
+
+      <div class="founders__body">
+        <h2 class="h2" id="founders-title" data-split>Os dentistas por trás da WF.</h2>
+        <p class="body reveal">
+          Você pode vir para uma limpeza de rotina, para mudar o sorriso ou para resolver um problema específico.
+        </p>
+        <dl class="facts">
+          <div class="reveal" style="--d:0ms"><dt class="label">Formação</dt><dd>Mestrado e doutorado</dd></div>
+          <div class="reveal" style="--d:80ms"><dt class="label">Especialização</dt><dd>Mais de 3 pós-graduações</dd></div>
+          <div class="reveal" style="--d:160ms"><dt class="label">Atuação</dt><dd>Todas as especialidades</dd></div>
+          <div class="reveal" style="--d:240ms"><dt class="label">Experiência</dt><dd>Mais de 10 anos</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <!-- ============ NÚMEROS ============ -->
+    <section class="stats container" aria-label="Números">
+      <ul class="stats__list" data-line>
+        <li class="stat reveal" style="--d:0ms">
+          <span class="stat__num" data-count="10" data-suffix="+">10+</span>
+          <span class="stat__label">anos de experiência</span>
+        </li>
+        <li class="stat reveal" style="--d:90ms">
+          <span class="stat__num" data-count="1000" data-suffix="+">1.000+</span>
+          <span class="stat__label">pacientes atendidos</span>
+        </li>
+        <li class="stat reveal" style="--d:180ms">
+          <span class="stat__num" data-count="5" data-decimals="1">5,0</span>
+          <span class="stat__label">estrelas no Google</span>
+        </li>
+        <li class="stat reveal" style="--d:270ms">
+          <span class="stat__num" data-count="2">2</span>
+          <span class="stat__label">clínicas em Santa Catarina</span>
+        </li>
+      </ul>
+    </section>
+
+    <!-- ============ (02) ESPECIALIDADES ============ -->
+    <section class="services" id="especialidades" aria-labelledby="services-title">
+      <div class="container services__grid">
+        <div class="services__aside">
+          <p class="label reveal">(02) Especialidades</p>
+          <h2 class="h2" id="services-title" data-split>Especialidades</h2>
+          <p class="body reveal">
+            Atendemos todas as áreas da odontologia, então você não precisa trocar de clínica no meio do tratamento. Toque em cada uma para ver o que inclui.
+          </p>
+          <div class="services__img frame" data-unveil aria-hidden="true">
+            <div class="frame__px" data-parallax="0.1">
+              <img
+                src="https://framerusercontent.com/images/riv0saRenoh2q2w0ywbPtY27w.jpg?scale-down-to=1024"
+                srcset="https://framerusercontent.com/images/riv0saRenoh2q2w0ywbPtY27w.jpg?scale-down-to=1024 767w"
+                sizes="320px"
+                width="767" height="1024" alt="" loading="lazy" decoding="async">
+            </div>
+          </div>
+        </div>
+
+        <ol class="acc" data-accordion data-line>
+          <li class="acc__item reveal">
+            <h3 class="acc__h">
+              <button class="acc__btn" type="button" aria-expanded="false" aria-controls="sv-1" id="sv-1-btn">
+                <span class="acc__idx mono">01</span>
+                <span class="acc__title">Clínica geral &amp; prevenção</span>
+                <span class="acc__icon" aria-hidden="true"></span>
+              </button>
+            </h3>
+            <div class="acc__panel" id="sv-1" role="region" aria-labelledby="sv-1-btn">
+              <div class="acc__inner"><div>
+                <p>Consultas de rotina, limpeza e restaurações. É o acompanhamento que evita problemas maiores.</p>
+                <ul class="tags"><li>Check-up</li><li>Profilaxia</li><li>Restaurações</li></ul>
+              </div></div>
+            </div>
+          </li>
+          <li class="acc__item reveal">
+            <h3 class="acc__h">
+              <button class="acc__btn" type="button" aria-expanded="false" aria-controls="sv-2" id="sv-2-btn">
+                <span class="acc__idx mono">02</span>
+                <span class="acc__title">Estética do sorriso</span>
+                <span class="acc__icon" aria-hidden="true"></span>
+              </button>
+            </h3>
+            <div class="acc__panel" id="sv-2" role="region" aria-labelledby="sv-2-btn">
+              <div class="acc__inner"><div>
+                <p>Lentes de contato, facetas e clareamento, planejados para um resultado natural.</p>
+                <ul class="tags"><li>Lentes de contato</li><li>Facetas</li><li>Clareamento</li></ul>
+              </div></div>
+            </div>
+          </li>
+          <li class="acc__item reveal">
+            <h3 class="acc__h">
+              <button class="acc__btn" type="button" aria-expanded="false" aria-controls="sv-3" id="sv-3-btn">
+                <span class="acc__idx mono">03</span>
+                <span class="acc__title">Implantes dentários</span>
+                <span class="acc__icon" aria-hidden="true"></span>
+              </button>
+            </h3>
+            <div class="acc__panel" id="sv-3" role="region" aria-labelledby="sv-3-btn">
+              <div class="acc__inner"><div>
+                <p>Reposição de um ou mais dentes, do planejamento à prótese.</p>
+                <ul class="tags"><li>Unitários</li><li>Múltiplos</li><li>Protocolo</li></ul>
+              </div></div>
+            </div>
+          </li>
+          <li class="acc__item reveal">
+            <h3 class="acc__h">
+              <button class="acc__btn" type="button" aria-expanded="false" aria-controls="sv-4" id="sv-4-btn">
+                <span class="acc__idx mono">04</span>
+                <span class="acc__title">Ortodontia</span>
+                <span class="acc__icon" aria-hidden="true"></span>
+              </button>
+            </h3>
+            <div class="acc__panel" id="sv-4" role="region" aria-labelledby="sv-4-btn">
+              <div class="acc__inner"><div>
+                <p>Aparelho fixo e alinhadores transparentes.</p>
+                <ul class="tags"><li>Aparelho fixo</li><li>Alinhadores</li><li>Contenção</li></ul>
+              </div></div>
+            </div>
+          </li>
+          <li class="acc__item reveal">
+            <h3 class="acc__h">
+              <button class="acc__btn" type="button" aria-expanded="false" aria-controls="sv-5" id="sv-5-btn">
+                <span class="acc__idx mono">05</span>
+                <span class="acc__title">Endodontia</span>
+                <span class="acc__icon" aria-hidden="true"></span>
+              </button>
+            </h3>
+            <div class="acc__panel" id="sv-5" role="region" aria-labelledby="sv-5-btn">
+              <div class="acc__inner"><div>
+                <p>Tratamento de canal para eliminar a dor e manter o dente natural sempre que possível.</p>
+                <ul class="tags"><li>Tratamento de canal</li><li>Retratamento</li></ul>
+              </div></div>
+            </div>
+          </li>
+          <li class="acc__item reveal">
+            <h3 class="acc__h">
+              <button class="acc__btn" type="button" aria-expanded="false" aria-controls="sv-6" id="sv-6-btn">
+                <span class="acc__idx mono">06</span>
+                <span class="acc__title">Periodontia</span>
+                <span class="acc__icon" aria-hidden="true"></span>
+              </button>
+            </h3>
+            <div class="acc__panel" id="sv-6" role="region" aria-labelledby="sv-6-btn">
+              <div class="acc__inner"><div>
+                <p>Tratamento da gengiva para evitar sangramento, retração e perda de dentes.</p>
+                <ul class="tags"><li>Raspagem</li><li>Gengivoplastia</li></ul>
+              </div></div>
+            </div>
+          </li>
+          <li class="acc__item reveal">
+            <h3 class="acc__h">
+              <button class="acc__btn" type="button" aria-expanded="false" aria-controls="sv-7" id="sv-7-btn">
+                <span class="acc__idx mono">07</span>
+                <span class="acc__title">Prótese &amp; reabilitação</span>
+                <span class="acc__icon" aria-hidden="true"></span>
+              </button>
+            </h3>
+            <div class="acc__panel" id="sv-7" role="region" aria-labelledby="sv-7-btn">
+              <div class="acc__inner"><div>
+                <p>Coroas, pontes e próteses para recuperar a mastigação e a aparência dos dentes.</p>
+                <ul class="tags"><li>Coroas</li><li>Pontes</li><li>Próteses</li></ul>
+              </div></div>
+            </div>
+          </li>
+          <li class="acc__item reveal">
+            <h3 class="acc__h">
+              <button class="acc__btn" type="button" aria-expanded="false" aria-controls="sv-8" id="sv-8-btn">
+                <span class="acc__idx mono">08</span>
+                <span class="acc__title">Odontopediatria</span>
+                <span class="acc__icon" aria-hidden="true"></span>
+              </button>
+            </h3>
+            <div class="acc__panel" id="sv-8" role="region" aria-labelledby="sv-8-btn">
+              <div class="acc__inner"><div>
+                <p>Atendimento para crianças, com foco em prevenção.</p>
+                <ul class="tags"><li>Prevenção infantil</li><li>Selantes</li></ul>
+              </div></div>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ (03) JORNADA ============ -->
+    <section class="journey container" id="jornada" aria-labelledby="journey-title">
+      <header class="head">
+        <p class="label reveal">(03) Como funciona</p>
+        <h2 class="h2" id="journey-title" data-split>Como funciona o atendimento</h2>
+      </header>
+      <ol class="steps" data-steps>
+        <li class="step" style="--i:0">
+          <span class="step__num">01</span>
+          <h3 class="step__title">Contato</h3>
+          <p>Mande uma mensagem pelo WhatsApp para a unidade mais perto de você.</p>
+        </li>
+        <li class="step" style="--i:1">
+          <span class="step__num">02</span>
+          <h3 class="step__title">Avaliação</h3>
+          <p>Na primeira consulta, conversamos sobre o seu histórico e fazemos o exame clínico.</p>
+        </li>
+        <li class="step" style="--i:2">
+          <span class="step__num">03</span>
+          <h3 class="step__title">Plano</h3>
+          <p>Você recebe o plano de tratamento com as etapas, o prazo e o valor.</p>
+        </li>
+        <li class="step" style="--i:3">
+          <span class="step__num">04</span>
+          <h3 class="step__title">Acompanhamento</h3>
+          <p>Depois do tratamento, marcamos revisões periódicas.</p>
+        </li>
+      </ol>
+    </section>
+
+    <!-- ============ (04) CLÍNICAS ============ -->
+    <section class="clinics container" id="clinicas" aria-labelledby="clinics-title">
+      <header class="head">
+        <p class="label reveal">(04) Nossas clínicas</p>
+        <div>
+          <h2 class="h2" id="clinics-title" data-split>Nossas clínicas</h2>
+          <p class="body reveal">Uma em Braço do Trombudo e outra em Rio do Sul. O agendamento é feito pelo WhatsApp.</p>
+        </div>
+      </header>
+
+      <div class="clinics__grid">
+        <article class="clinic reveal" style="--d:0ms">
+          <div class="clinic__top">
+            <span class="label">Unidade 01</span>
+            <svg class="clinic__mark" aria-hidden="true"><use href="#tooth"/></svg>
+          </div>
+          <h3 class="clinic__city">Braço do Trombudo</h3>
+          <p class="clinic__name">Clínica WF</p>
+          <dl class="clinic__meta">
+            <dt class="label">WhatsApp</dt>
+            <dd><a href="https://wa.me/5547999981676" target="_blank" rel="noopener">(47) 99998-1676</a></dd>
+          </dl>
+          <div class="clinic__actions">
+            <a class="btn" href="https://wa.me/5547999981676?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o." target="_blank" rel="noopener">
+              <span class="roll"><span data-text="Agendar pelo WhatsApp">Agendar pelo WhatsApp</span></span>
+              <svg class="btn__icon" aria-hidden="true"><use href="#arrow-up"/></svg>
+            </a>
+            <a class="link" href="https://www.google.com/maps/search/?api=1&amp;query=Cl%C3%ADnica%20WF%20Odontologia%20Bra%C3%A7o%20do%20Trombudo%20SC" target="_blank" rel="noopener">Ver no mapa</a>
+          </div>
+        </article>
+
+        <article class="clinic reveal" style="--d:120ms">
+          <div class="clinic__top">
+            <span class="label">Unidade 02</span>
+            <svg class="clinic__mark" aria-hidden="true"><use href="#tooth"/></svg>
+          </div>
+          <h3 class="clinic__city">Rio do Sul</h3>
+          <p class="clinic__name">Clínica Schünemann</p>
+          <dl class="clinic__meta">
+            <dt class="label">Telefone</dt>
+            <dd><a href="tel:+554735251648">(47) 3525-1648</a></dd>
+          </dl>
+          <div class="clinic__actions">
+            <a class="btn" href="https://wa.me/554735251648?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o." target="_blank" rel="noopener">
+              <span class="roll"><span data-text="Agendar pelo WhatsApp">Agendar pelo WhatsApp</span></span>
+              <svg class="btn__icon" aria-hidden="true"><use href="#arrow-up"/></svg>
+            </a>
+            <a class="link" href="https://www.google.com/maps/search/?api=1&amp;query=Cl%C3%ADnica%20Sch%C3%BCnemann%20Rio%20do%20Sul%20SC" target="_blank" rel="noopener">Ver no mapa</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ (05) DÚVIDAS ============ -->
+    <section class="faq container" id="duvidas" aria-labelledby="faq-title">
+      <div class="faq__aside">
+        <p class="label reveal">(05) Dúvidas</p>
+        <h2 class="h2" id="faq-title" data-split>Perguntas frequentes</h2>
+        <p class="body reveal">Se a sua dúvida não estiver aqui, pergunte pelo WhatsApp.</p>
+        <button class="btn btn--ghost reveal" type="button" data-book>
+          <span class="roll"><span data-text="Falar com a clínica">Falar com a clínica</span></span>
+          <svg class="btn__icon" aria-hidden="true"><use href="#arrow"/></svg>
+        </button>
+      </div>
+
+      <div class="acc acc--faq" data-accordion data-line>
+        <div class="acc__item reveal">
+          <h3 class="acc__h">
+            <button class="acc__btn" type="button" aria-expanded="false" aria-controls="q-1" id="q-1-btn">
+              <span class="acc__title">Como agendo minha primeira consulta?</span>
+              <span class="acc__icon" aria-hidden="true"></span>
+            </button>
+          </h3>
+          <div class="acc__panel" id="q-1" role="region" aria-labelledby="q-1-btn">
+            <div class="acc__inner"><div>
+              <p>Toque em “Agendar consulta”, escolha a unidade e mande uma mensagem pelo WhatsApp. A equipe responde com os horários disponíveis.</p>
+            </div></div>
+          </div>
+        </div>
+        <div class="acc__item reveal">
+          <h3 class="acc__h">
+            <button class="acc__btn" type="button" aria-expanded="false" aria-controls="q-2" id="q-2-btn">
+              <span class="acc__title">Como funciona a primeira avaliação?</span>
+              <span class="acc__icon" aria-hidden="true"></span>
+            </button>
+          </h3>
+          <div class="acc__panel" id="q-2" role="region" aria-labelledby="q-2-btn">
+            <div class="acc__inner"><div>
+              <p>Conversamos sobre o seu histórico e o motivo da visita e fazemos o exame clínico. Se for preciso, pedimos radiografias. No fim, você sabe o que precisa ser feito.</p>
+            </div></div>
+          </div>
+        </div>
+        <div class="acc__item reveal">
+          <h3 class="acc__h">
+            <button class="acc__btn" type="button" aria-expanded="false" aria-controls="q-3" id="q-3-btn">
+              <span class="acc__title">Vocês atendem todas as especialidades?</span>
+              <span class="acc__icon" aria-hidden="true"></span>
+            </button>
+          </h3>
+          <div class="acc__panel" id="q-3" role="region" aria-labelledby="q-3-btn">
+            <div class="acc__inner"><div>
+              <p>Sim. Clínica geral, estética, implantes, ortodontia, prótese e as demais especialidades são feitas pela mesma equipe.</p>
+            </div></div>
+          </div>
+        </div>
+        <div class="acc__item reveal">
+          <h3 class="acc__h">
+            <button class="acc__btn" type="button" aria-expanded="false" aria-controls="q-4" id="q-4-btn">
+              <span class="acc__title">Quanto custa o tratamento?</span>
+              <span class="acc__icon" aria-hidden="true"></span>
+            </button>
+          </h3>
+          <div class="acc__panel" id="q-4" role="region" aria-labelledby="q-4-btn">
+            <div class="acc__inner"><div>
+              <p>Depende do que precisa ser feito. O valor é passado depois da avaliação, junto com as formas de pagamento.</p>
+            </div></div>
+          </div>
+        </div>
+        <div class="acc__item reveal">
+          <h3 class="acc__h">
+            <button class="acc__btn" type="button" aria-expanded="false" aria-controls="q-5" id="q-5-btn">
+              <span class="acc__title">Qual unidade devo escolher?</span>
+              <span class="acc__icon" aria-hidden="true"></span>
+            </button>
+          </h3>
+          <div class="acc__panel" id="q-5" role="region" aria-labelledby="q-5-btn">
+            <div class="acc__inner"><div>
+              <p>A que for mais perto de você. Se quiser confirmar se um tratamento é feito na unidade, pergunte pelo WhatsApp.</p>
+            </div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CTA ============ -->
+    <section class="cta" aria-labelledby="cta-title">
+      <div class="cta__bg" aria-hidden="true">
+        <div class="frame__px" data-parallax="0.12">
+          <img
+            src="https://framerusercontent.com/images/v1V6rIzu0yMkuT7pfTN1tvQxy0g.jpg?scale-down-to=1024"
+            srcset="https://framerusercontent.com/images/v1V6rIzu0yMkuT7pfTN1tvQxy0g.jpg?scale-down-to=1024 1024w,
+                    https://framerusercontent.com/images/v1V6rIzu0yMkuT7pfTN1tvQxy0g.jpg?scale-down-to=2048 2048w"
+            sizes="100vw" width="2048" height="1365" alt="" loading="lazy" decoding="async">
+        </div>
+      </div>
+      <div class="cta__inner container">
+        <p class="label reveal">Agendamento</p>
+        <h2 class="display" id="cta-title" data-split>Agende sua consulta.</h2>
+        <p class="body reveal">Escolha a unidade e fale com a gente pelo WhatsApp.</p>
+        <div class="cta__actions reveal">
+          <a class="btn btn--light" href="https://wa.me/5547999981676?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o." target="_blank" rel="noopener">
+            <span class="roll"><span data-text="Braço do Trombudo">Braço do Trombudo</span></span>
+            <svg class="btn__icon" aria-hidden="true"><use href="#arrow-up"/></svg>
+          </a>
+          <a class="btn btn--outline-light" href="https://wa.me/554735251648?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o." target="_blank" rel="noopener">
+            <span class="roll"><span data-text="Rio do Sul">Rio do Sul</span></span>
+            <svg class="btn__icon" aria-hidden="true"><use href="#arrow-up"/></svg>
+          </a>
+        </div>
+        <p class="cta__note mono reveal">(47) 99998-1676 · (47) 3525-1648</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__top">
+        <div class="footer__brand">
+          <a href="#top" class="brand brand--light" aria-label="WF Odontologia, voltar ao início">
+            <svg class="brand__mark" aria-hidden="true"><use href="#tooth"/></svg>
+            <span class="brand__name">WF Odontologia</span>
+          </a>
+          <p>Clínica odontológica em Braço do Trombudo e Rio do Sul, Santa Catarina.</p>
+        </div>
+
+        <nav class="footer__col footer__nav" aria-label="Rodapé">
+          <p class="label">Navegação</p>
+          <ul>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#especialidades">Especialidades</a></li>
+            <li><a href="#jornada">Como funciona</a></li>
+            <li><a href="#clinicas">Clínicas</a></li>
+            <li><a href="#duvidas">Dúvidas</a></li>
+          </ul>
+        </nav>
+
+        <div class="footer__col footer__units">
+          <p class="label">Unidades</p>
+          <ul>
+            <li>
+              <a href="https://wa.me/5547999981676" target="_blank" rel="noopener">Braço do Trombudo</a>
+              <span>Clínica WF · (47) 99998-1676</span>
+            </li>
+            <li>
+              <a href="https://wa.me/554735251648" target="_blank" rel="noopener">Rio do Sul</a>
+              <span>Clínica Schünemann · (47) 3525-1648</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer__col footer__cta">
+          <p class="label">Agende</p>
+          <button class="btn btn--light btn--sm" type="button" data-book>
+            <span class="roll"><span data-text="Agendar consulta">Agendar consulta</span></span>
+          </button>
+          <a class="footer__top-link mono" href="#top">Voltar ao topo ↑</a>
+        </div>
+      </div>
+
+      <div class="footer__bottom mono">
+        <span>© <span data-year>2026</span> WF Odontologia</span>
+        <!-- TODO: preencher com nome e CRO do responsável técnico (exigência do CFO para publicidade odontológica) -->
+        <span>Resp. técnico: Dr(a). Nome Sobrenome, CRO/SC 00000</span>
+        <span>Site por <a href="https://lucasvon.framer.website/" target="_blank" rel="noopener">Lucas Von</a></span>
+      </div>
+    </div>
+    <div class="footer__mark" aria-hidden="true"><span>WF Odontologia</span></div>
+  </footer>
+
+  <!-- Barra fixa de agendamento (mobile) -->
+  <div class="dock" data-dock>
+    <button class="btn btn--block" type="button" data-book tabindex="-1">
+      <span class="roll"><span data-text="Agendar consulta">Agendar consulta</span></span>
+      <svg class="btn__icon" aria-hidden="true"><use href="#arrow"/></svg>
+    </button>
+  </div>
+
+  <!-- Seletor de unidade -->
+  <dialog class="book" id="book" aria-labelledby="book-title">
+    <div class="book__inner">
+      <div class="book__head">
+        <p class="label">Agendar consulta</p>
+        <button class="book__close" type="button" data-close aria-label="Fechar">
+          <span aria-hidden="true"></span>
+        </button>
+      </div>
+      <h2 class="book__title" id="book-title">Qual unidade fica melhor para você?</h2>
+      <ul class="book__list">
+        <li>
+          <a href="https://wa.me/5547999981676?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o." target="_blank" rel="noopener" data-close-after>
+            <span class="book__idx mono">01</span>
+            <span class="book__txt">
+              <span class="book__city">Braço do Trombudo</span>
+              <span class="book__sub">Clínica WF · (47) 99998-1676</span>
+            </span>
+            <svg class="book__arrow" aria-hidden="true"><use href="#arrow-up"/></svg>
+          </a>
+        </li>
+        <li>
+          <a href="https://wa.me/554735251648?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o." target="_blank" rel="noopener" data-close-after>
+            <span class="book__idx mono">02</span>
+            <span class="book__txt">
+              <span class="book__city">Rio do Sul</span>
+              <span class="book__sub">Clínica Schünemann · (47) 3525-1648</span>
+            </span>
+            <svg class="book__arrow" aria-hidden="true"><use href="#arrow-up"/></svg>
+          </a>
+        </li>
+      </ul>
+      <p class="book__note">Você será direcionado ao WhatsApp da unidade escolhida.</p>
+    </div>
+  </dialog>
+
+  <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js" defer></script>
+  <script src="main.js" defer></script>
+</body>
+</html>
