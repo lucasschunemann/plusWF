@@ -1,4 +1,4 @@
-/* WF Odontologia — interações e movimento */
+/* WF Odontologia: interações e movimento */
 (() => {
   window.__wf = true;
 
@@ -186,8 +186,8 @@
 
   /* ---------- Âncoras ---------- */
   const scrollToTarget = (target) => {
-    // Mira no rótulo da seção (não no padding), com respiro abaixo da nav
-    const anchor = target.id === 'top' ? target : ($('.label', target) || target);
+    // Mira no título da seção (não no padding), com respiro abaixo da nav
+    const anchor = target.id === 'top' ? target : ($('.label, .h2', target) || target);
     const offset = target.id === 'top' ? 0 : -(parseInt(getComputedStyle(root).getPropertyValue('--nav-h'), 10) || 72) - 40;
     if (lenis) lenis.scrollTo(anchor, { offset, duration: 1.4 });
     else window.scrollTo({ top: anchor.getBoundingClientRect().top + window.scrollY + offset, behavior: reduceMotion ? 'auto' : 'smooth' });
