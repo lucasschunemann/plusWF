@@ -179,13 +179,17 @@ ul, ol { padding: 0; list-style: none; }
 .frame img { width: 100%; height: 100%; object-fit: cover; }
 
 /* ---------- Marca ---------- */
+/* Monograma "WF" em Spectral + filete + "Odontologia" */
 .brand {
-  display: inline-flex; align-items: center; gap: 10px;
+  display: inline-flex; align-items: center; gap: 12px;
   justify-self: start;
+  font-family: var(--serif);
 }
-.brand__mark { width: 38px; height: 23px; color: var(--wine); }
-.brand__name { font-family: var(--serif); font-weight: 400; font-size: 21px; line-height: 1; letter-spacing: -.01em; }
+.brand__mark { font-weight: 500; font-size: 28px; line-height: 1; letter-spacing: -.06em; color: var(--wine); }
+.brand__rule { width: 1px; height: 24px; background: var(--line-strong); }
+.brand__name { font-weight: 400; font-size: 20px; line-height: 1; letter-spacing: -.005em; }
 .brand--light .brand__mark { color: var(--on-wine); }
+.brand--light .brand__rule { background: rgba(246, 238, 236, .3); }
 
 /* ---------- NAV ---------- */
 .nav {
